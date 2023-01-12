@@ -1,8 +1,11 @@
 import React from 'react'
+import Navigation from './Navigation'
 
 const Container = () => {
     return (
-        <div>Container</div>
+        <div className='container'>
+            <Navigation />
+        </div>
     )
 }
 
