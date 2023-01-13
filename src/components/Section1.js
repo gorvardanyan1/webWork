@@ -1,21 +1,30 @@
 import React from 'react'
-
+import img from '../images/percent.png'
+import '../style/section1.style.scss'
 const Section1 = () => {
     return (
         <section className='section1'>
-            <div>
+            <div className='leftDiv'>
                 <h1>
-                    Time Tracker <span>with</span><br /> Screenshots
-                    <span className='yellowLine'>
-                        <svg width="255" height="10" viewBox="0 0 255 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M255 2.36242C253.702 2.25503 252.512 2.25503 251.213 2.25503C249.915 2.25503 248.725 2.14765 247.427 2.04027C244.614 1.8255 241.909 1.50336 239.096 1.28859C233.795 0.85906 228.386 0.42953 223.084 0.322148C218.216 0.107383 213.239 0 208.371 0C207.073 0 205.774 0 204.584 0C199.716 0.107383 194.847 0.107383 189.979 0.214765C178.619 0.536913 167.151 0.85906 155.791 1.39597C144.648 1.93289 133.504 2.4698 122.469 3.11409C117.06 3.43624 111.542 3.75839 106.133 4.08054C100.182 4.61745 94.2321 4.9396 88.3899 5.36913C76.1646 6.33557 64.0475 7.19463 51.8222 8.16107C41.2198 9.02013 30.7255 10.2013 20.2312 11.7047C13.5235 12.7785 6.70768 13.9597 0 15.1409C7.68138 15.6779 15.4709 15.8926 23.2605 16C28.3454 16 33.4302 15.8926 38.4069 15.7852C41.6525 15.6779 44.8982 15.4631 48.252 15.2483C50.3076 15.1409 52.255 14.9262 54.2024 14.7114C59.5036 14.1745 64.913 13.745 70.2143 13.2081C76.381 12.6711 82.4395 12.0268 88.6063 11.4899C94.8812 10.953 101.264 10.4161 107.539 9.87919C113.165 9.44966 118.899 9.02013 124.633 8.5906C130.151 8.16107 135.776 7.83893 141.294 7.51678C146.92 7.19463 152.437 6.87248 158.063 6.55034C163.797 6.22819 169.423 6.12081 175.157 5.90604C185.543 5.47651 195.929 5.36913 206.423 5.26174C212.266 5.26174 218 5.04698 223.842 4.83221C229.576 4.61745 235.31 4.40268 240.936 4.08054C243.207 3.97315 245.588 3.86577 247.86 3.65101C248.941 3.54362 250.132 3.43624 251.213 3.22148C252.187 3.00671 253.161 2.68456 254.134 2.57718C254.459 2.4698 254.675 2.36242 255 2.36242Z" fill="#FFC107"></path>
-                        </svg>
-                    </span>
+                    <span>CYBER MONDAY</span>  means <br />
+                    an even <span>bigger sale</span>
                 </h1>
-                <p>WebWork is a Time Tracking and Employee Monitoring software for companies and remote teams with features you need most: Time Tracking, Screenshots, Apps & Web Usage, Attendance Monitoring, Tasks and more.</p>
+                <p>Cyber Monday saves you money,<br />
+                    WebWork saves you time.</p>
+                <div className='getStartedDiv'>
+                    <a href="https://www.webwork-tracker.com/app/dashboard" className='getStartedLink'>Save Big Now</a>
+                </div>
+                <div className="freeTrial">
+                    <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.03607 8.79215L9.29863 12.3338L16.5814 4.40039" stroke="#8276FF" strokeWidth="1.13333" strokeLinecap="round" strokeLinejoin="round"></path>
+                        <path d="M17.9996 9.5C17.9996 14.1944 14.1942 18 9.49982 18C4.8055 18 1 14.1944 1 9.5C1 4.80558 4.8055 1 9.49982 1C10.5063 1 11.4719 1.17493 12.3679 1.49604" stroke="#8276FF" strokeWidth="1.13333" strokeLinecap="round" strokeLinejoin="round"></path>
+                    </svg>
+                    <span>14-day free trial | No credit card required</span>
+                </div>
             </div>
-            <div className='dashboardImg'>
+            <div className='saleImages'>
 
+                <img className='percent' src={img} alt="50%" />
             </div>
         </section>
     )
