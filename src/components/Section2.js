@@ -28,7 +28,9 @@ const Section2 = () => {
             <div className='tarifDiv'>
                 {fakeData.map(element => <TarrifValue key={v4()} data={element} />)}
             </div>
-
+            <div className='section2ImgDiv'>
+                <img src="https://www.webwork-tracker.com/images/time-tracker/home/awards.png" alt="Our Awards" />
+            </div>
         </section>
     )
 }

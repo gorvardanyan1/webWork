@@ -16,13 +16,15 @@
     }
 
     .tarifDiv {
+        margin: 50px 0 10px 0;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
-        height: 80%;
+        flex-wrap: wrap;
+        position: relative;
 
         .tarifValueDiv {
-            padding: 25px 50px;
+            padding: 30px 60px;
             text-align: center;
             background: rgb(255, 255, 255, 0.1);
             border: 1px solid rgba(141, 159, 244, 0.3);
@@ -72,18 +74,19 @@
             h3 {
                 font-style: normal;
                 font-weight: 700;
-                font-size: 39px;
+                font-size: 35px;
 
                 color: rgba(255, 255, 255, 0.86);
             }
 
             h5 {
+
                 font-style: normal;
                 font-weight: 600;
                 font-size: 28px;
                 line-height: 20px;
                 color: rgba(255, 255, 255, 0.75);
-                text-align: right;
+
             }
 
             .valueDiv {
@@ -109,16 +112,65 @@
             span {
                 font-style: normal;
                 font-weight: 700;
-                font-size: 60px;
-                line-height: 157px;
+                font-size: 50px;
+                line-height: 120px;
                 color: #ffffff;
             }
         }
     }
 
-    ul {
+    .advantagesDiv {
+        ul {
+            padding: 5px 30px;
+            margin: 0 auto;
+            width: 80%;
+            list-style-image: url('../images/advantages.png');
+            list-style-position: inherit;
 
-        width: 90%;
-        list-style-image: url('../images/advantages.png');
+
+            li {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                color: #ffffff;
+            }
+        }
+    }
+
+    .tarifLink {
+        margin: 10px 0;
+
+        a {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 25px;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+            text-decoration: none;
+            background-color: #8276FF;
+            padding: 10px 30px;
+            border-radius: 50px;
+        }
+    }
+
+    .note {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-align: right;
+        position: absolute;
+        right: 30px;
+    }
+
+    .section2ImgDiv {
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+
     }
 }

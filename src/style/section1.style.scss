@@ -83,8 +83,34 @@
         align-items: center;
 
         span {
+
+            margin-left: 10px;
             color: #ffffff;
 
         }
+    }
+
+    .starDiv {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+
+        h5 {
+            margin-left: 10px;
+            display: inline;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            color: #ffffff;
+        }
+    }
+
+    .partnersDiv {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
