@@ -1,6 +1,7 @@
 import React from 'react'
 import Navigation from './Navigation'
 import Section1 from './Section1'
+import Section2 from './Section2'
 
 const Container = () => {
     return (
@@ -8,6 +9,7 @@ const Container = () => {
             <Navigation />
             <main>
                 <Section1 />
+                <Section2 />
             </main>
         </div>
     )
