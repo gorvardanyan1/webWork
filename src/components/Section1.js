@@ -23,7 +23,6 @@ const Section1 = () => {
                 </div>
             </div>
             <div className='saleImages'>
-
                 <img className='percent' src={img} alt="50%" />
             </div>
         </section>

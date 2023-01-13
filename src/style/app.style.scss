@@ -2,12 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #1E1E1E;
+
+
+}
+
+body {
+    background-color: #100C16;
 }
 
 .container {
     width: 85%;
     margin: 0 auto;
+    background-color: #100C16;
 }
 
 ///// nav 
@@ -40,4 +46,3 @@ nav {
     }
 
 }
-
