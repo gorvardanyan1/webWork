@@ -1,0 +1,49 @@
+.section3 {
+    margin: 50px 0;
+    height: 98vh;
+    background: linear-gradient(147.19deg, #362A87 -2.99%, #2C2747 82.25%, #4323F1 157.46%);
+    border-radius: 26px;
+
+    h1 {
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 39px;
+        line-height: 40px;
+        color: #ffffff;
+
+        span {
+            color: #FFC107;
+        }
+    }
+
+    nav {
+        padding: 10px 60px;
+
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            border-bottom: 3px solid #ffffff;
+            padding: 10px 10px;
+
+            li {
+                svg {
+                    margin: 0 auto;
+                    display: block;
+                    width: 50%;
+                }
+
+                a {
+                    text-align: center;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 25px;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}

@@ -14,7 +14,7 @@ const fakeData = [
     {
         percent: '50%',
         additionalBonus: '18%',
-        header: 'Monthly',
+        header: 'Yearly',
         value: 4.09,
         saleValue: 2.05,
         advantages: ['14-day Free Trial', 'Access to All Features', '24/7 Support'],
