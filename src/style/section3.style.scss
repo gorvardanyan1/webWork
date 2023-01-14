@@ -23,19 +23,24 @@
 
         ul {
             display: flex;
+            width: 100%;
             justify-content: space-between;
             list-style-type: none;
             border-bottom: 3px solid #ffffff;
             padding: 10px 10px;
 
             li {
+                cursor: pointer;
+
                 svg {
                     margin: 0 auto;
                     display: block;
                     width: 50%;
                 }
 
-                a {
+                h2 {
+                    display: block;
+                    text-decoration: none;
                     text-align: center;
                     font-style: normal;
                     font-weight: 600;

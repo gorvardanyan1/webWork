@@ -3,6 +3,7 @@
 .section1 {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     height: 90vh;
 
     .leftDiv {
