@@ -46,3 +46,25 @@ nav {
     }
 
 }
+
+////section Partner////
+
+.sectionPartner {
+    margin: 40px 0;
+
+    h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 31px;
+        line-height: 42px;
+        text-align: center;
+        color: #ffffff
+    }
+
+    div {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+}
