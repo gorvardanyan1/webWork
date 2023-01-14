@@ -26,7 +26,10 @@ const Section2 = () => {
         <section className='section2'>
             <h1 className='header'> Benefit both ways - monthly or yearly</h1>
             <div className='tarifDiv'>
+
                 {fakeData.map(element => <TarrifValue key={v4()} data={element} />)}
+
+
             </div>
             <div className='section2ImgDiv'>
                 <img src="https://www.webwork-tracker.com/images/time-tracker/home/awards.png" alt="Our Awards" />

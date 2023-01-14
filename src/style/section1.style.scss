@@ -3,16 +3,17 @@
 .section1 {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: center;
     height: 90vh;
+
 
     .leftDiv {
         width: 50%;
+        min-width: 285px;
 
         h1 {
             font-size: 44px;
             color: #ffffff;
-            // font-style:normal;
             font-weight: 900;
             font-size: 49px;
             font-family: 'Bebas Neue', cursive;
@@ -21,8 +22,6 @@
                 font-weight: 100;
                 color: #FFC107;
             }
-
-
         }
 
         p {
@@ -32,8 +31,6 @@
             font-weight: 400;
             font-size: 16px;
             line-height: 24px;
-
-
         }
 
         .getStartedDiv {
@@ -41,7 +38,7 @@
 
             .getStartedLink {
                 display: block;
-                width: 40%;
+                width: 62%;
                 text-align: center;
                 font-size: 17px;
                 background-color: #8276ff;
@@ -95,7 +92,6 @@
         margin-top: 50px;
         display: flex;
         align-items: center;
-
         h5 {
             margin-left: 10px;
             display: inline;

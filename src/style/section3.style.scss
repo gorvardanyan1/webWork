@@ -1,5 +1,4 @@
 .section3 {
-    height: 98vh;
     margin: 30px 5px;
 
     .mainDiv {
@@ -30,6 +29,7 @@
             display: flex;
             width: 100%;
             justify-content: space-between;
+            flex-wrap: wrap;
             list-style-type: none;
             border-bottom: 3px solid #ffffff;
 
@@ -97,13 +97,13 @@
 
         a {
             display: block;
-            width: 60%;
+            width: 68%;
             text-align: center;
             margin-top: 10px;
             font-style: normal;
             font-weight: 700;
             font-size: 20px;
-            line-height: 25px;
+            line-height: 15px;
             color: #ffffff;
             text-decoration: none;
             padding: 15px 30px;
@@ -113,7 +113,6 @@
     }
 
     .contentRight {
-
         width: 50%;
         height: 100%;
 

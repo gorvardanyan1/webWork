@@ -31,6 +31,8 @@
             border-radius: 10px;
             position: relative;
 
+
+
             .percentDiv {
                 width: 179px;
                 height: 168px;
@@ -46,18 +48,14 @@
                 position: absolute;
                 top: -70px;
                 right: -70px;
-
                 h1 {
                     line-height: 41px;
                     width: 100%;
                     font-style: normal;
                     font-weight: 700;
                     font-size: 50px;
-
                     letter-spacing: 0.007em;
-
                     color: #FFFFFF;
-
                     text-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
                 }
 
@@ -75,12 +73,10 @@
                 font-style: normal;
                 font-weight: 700;
                 font-size: 35px;
-
                 color: rgba(255, 255, 255, 0.86);
             }
 
             h5 {
-
                 font-style: normal;
                 font-weight: 600;
                 font-size: 28px;
@@ -91,7 +87,6 @@
 
             .valueDiv {
                 position: relative;
-
                 .tarifValue {
                     position: absolute;
                     left: -40px;
@@ -99,7 +94,6 @@
                     font-weight: 600;
                     font-size: 25px;
                     line-height: 58px;
-
                     svg {
                         position: absolute;
                         bottom: 14px;
@@ -117,8 +111,8 @@
                 color: #ffffff;
             }
         }
-    }
 
+    }
     .advantagesDiv {
         ul {
             padding: 5px 30px;
@@ -126,8 +120,6 @@
             width: 80%;
             list-style-image: url('../images/advantages.png');
             list-style-position: inherit;
-
-
             li {
                 font-style: normal;
                 font-weight: 400;
@@ -140,7 +132,6 @@
 
     .tarifLink {
         margin: 10px 0;
-
         a {
             font-style: normal;
             font-weight: 700;
@@ -154,7 +145,6 @@
             border-radius: 50px;
         }
     }
-
     .note {
         font-style: normal;
         font-weight: 400;
@@ -165,7 +155,6 @@
         position: absolute;
         right: 30px;
     }
-
     .section2ImgDiv {
         img {
             width: 100%;
