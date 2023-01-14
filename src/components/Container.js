@@ -4,7 +4,7 @@ import Section1 from './Section1'
 import Section2 from './Section2'
 import Section3 from './Section3'
 import SectionPartner from './SectionPartner'
-
+import Footer from './Footer'
 const Container = () => {
     return (
         <div className='container'>
@@ -14,7 +14,9 @@ const Container = () => {
                 <Section2 />
                 <Section3 />
                 <SectionPartner />
+
             </main>
+            <Footer />
         </div>
     )
 }
